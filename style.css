@@ -26,7 +26,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     height:50px;
-    width: 110%;
+    width: 100%;
     background-position: center;
 }
 .nav-add{
@@ -35,6 +35,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    display: flex;
    
 }
 .add-first{
@@ -50,7 +51,7 @@
    font-size: 1rem;
 }
 .border{
-    border: 2px solid white transparent;
+    border: 2px solid transparent;
 }
 .border:hover{
     border:1px solid white 
@@ -157,8 +158,7 @@ display:flex;
 }
 
 .panel-ops{
-    width:70%;
-    font: size 0.8rem;
+    font-size: 0.8rem;
 }
 .panel-deals{
     font-size: 0.9rem;
@@ -187,7 +187,7 @@ display:flex;
    margin-bottom:25px;
 }
 
-hero-mess a{
+.hero-mess a{
 color:#007185;
 }
 
@@ -271,7 +271,7 @@ ul a{
     background-size: contain;
     background-repeat: no-repeat;
     height:50px;
-    width: 110%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
